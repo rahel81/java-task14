@@ -44,6 +44,4 @@ class TicketRepositoryTest {
     public void shouldRemoveIfNotExists() {
         assertThrows(NotFoundException.class, () -> repository.removeById(7));
     }
-
-
 }
