@@ -30,7 +30,7 @@ class TicketManagerTest {
     public void shouldFindByFrom() {
 
         Ticket[] actual = manager.searchBy("LED", "");
-        Ticket[] expected = new Ticket[]{fourth, first,second};
+        Ticket[] expected = new Ticket[]{fourth, first, second};
         assertArrayEquals(expected, actual);
     }
 
@@ -41,5 +41,4 @@ class TicketManagerTest {
         Ticket[] expected = new Ticket[]{fourth, first};
         assertArrayEquals(expected, actual);
     }
-
 }

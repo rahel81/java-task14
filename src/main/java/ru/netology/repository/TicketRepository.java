@@ -29,7 +29,7 @@ public class TicketRepository {
     }
 
     public void removeById(int id) {
-        if (findById(id) == null){
+        if (findById(id) == null) {
             throw new NotFoundException("Element with id: " + id + " not found");
         }
         int length = items.length - 1;
@@ -43,5 +43,4 @@ public class TicketRepository {
         }
         items = tmp;
     }
-
-   }
+}

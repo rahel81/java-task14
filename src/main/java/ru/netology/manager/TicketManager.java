@@ -42,8 +42,4 @@ public class TicketManager {
     }
 }
 
-    /*public void removeById(int id) {
-        try {repository.removeById(id);
-        } catch (NotFoundException e);
-    }*/
 
